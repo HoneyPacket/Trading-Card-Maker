@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(29, 27, 27);
+    color: antiquewhite;
+}
+
+#mainImg{
+    height: 400px;
+    width: 300px;
+    /* margin: 3rem; */
+    border: antiquewhite solid 4px;
+    position: absolute;
+}
+
+#cardImg{
+    position: fixed;
+    height: 180px;
+    width: 275px;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+#topTxt{
+    position: fixed;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 0.5rem;
+    margin-top: 0;
+    top: 2.2rem;
+}
+#btmTxt{
+    position: fixed;
+    top: 16rem;
+    text-align: left;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: large;
+}
+
+#midTxt{
+    position: fixed;
+    top: 19rem;
+    text-align: left;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#midTxt2{
+    position: fixed;
+    top: 22rem;
+    text-align: left;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 2rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#numStat1{
+    position: fixed;
+    top: 19rem;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 15.5rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#numStat2{
+    position: fixed;
+    top: 22rem;
+    bottom: 0%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 15.5rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#imgDiv{
+    max-height: 400px;
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+    top: 2rem;
+}
+
+#imgUpload{
+    background-color: antiquewhite;
+    color: #000000;
+}
+
+#back{
+    background-image: url('/imgs/blueCard.png');
+    background-size: 100%;
+    height: 404px;
+    width: 304px;
+    position: fixed;
+}
+
+#greatStuff{
+    background-color: bisque;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    margin-top: 5rem;
+}
