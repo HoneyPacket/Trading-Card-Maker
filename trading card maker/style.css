@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: rgb(29, 27, 27);
+    background-color: #1c2025;
     color: antiquewhite;
 }
 
@@ -14,7 +14,7 @@ body{
 }
 
 #cardImg{
-    position: fixed;
+    position: relative;
     height: 180px;
     width: 275px;
     margin-top: 2.5rem;
@@ -22,18 +22,18 @@ body{
 }
 
 #topTxt{
-    position: fixed;
+    position: absolute;
     text-align: left;
     font-weight: bold;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px #000000;
     margin-left: 0.5rem;
     margin-top: 0;
-    top: 2.2rem;
+    top: 0.3rem;
 }
 #btmTxt{
-    position: fixed;
-    top: 16rem;
+    position: absolute;
+    top: 14rem;
     text-align: left;
     bottom: 0%;
     font-weight: bold;
@@ -45,7 +45,7 @@ body{
 }
 
 #midTxt{
-    position: fixed;
+    position: absolute;
     top: 19rem;
     text-align: left;
     bottom: 0%;
@@ -57,7 +57,7 @@ body{
 }
 
 #midTxt2{
-    position: fixed;
+    position: absolute;
     top: 22rem;
     text-align: left;
     bottom: 0%;
@@ -69,7 +69,7 @@ body{
 }
 
 #numStat1{
-    position: fixed;
+    position: absolute;
     top: 19rem;
     bottom: 0%;
     font-weight: bold;
@@ -80,7 +80,7 @@ body{
 }
 
 #numStat2{
-    position: fixed;
+    position: absolute;
     top: 22rem;
     bottom: 0%;
     font-weight: bold;
@@ -108,14 +108,28 @@ body{
     background-size: 100%;
     height: 404px;
     width: 304px;
-    position: fixed;
+    position: absolute;
+    margin: auto;
 }
 
 #greatStuff{
-    background-color: bisque;
+    background-color: #202934;
+    border: #eac59a solid 3px;
     display: block;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 80%;
     margin-top: 5rem;
+    padding: 2rem;
+    top: 11rem;
+}
+
+#textDiv{
+    display: flex;
+}
+
+#altOptions{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 800;
 }

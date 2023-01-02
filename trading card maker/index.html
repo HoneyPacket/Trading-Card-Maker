@@ -24,23 +24,46 @@
     <p id="numStat2">50</p>
 </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<!-- lmao, maybe change that ^ -->
 
 <div id="greatStuff">
-<div id="textDiv" style="margin-left: 1rem;">
+<!-- <div id="textDiv"> -->
+    <label for="imgUpload" style="font-weight: 700;">Please upload an image!</label>
     <input id="imgUpload" type='file'/><br><br><br>
+
+    <!-- background color -->
+<label for="cardColor">Card Color: </label>
+<select id="cardColor">
+    <option id="blueCard">Blue</option>
+    <option id="redCard">Red</option>
+    <option id="greenCard">Green</option>
+</select><br>
+
     <input id="topTxtArea" type="text" placeholder="Top Text"><br>
     <input id="btmTxtArea" type="text" placeholder="Bottom Text"><br>
     <input id="midTxtArea" type="text" placeholder="Mid Text"><br>
     <input id="midTxtArea2" type="text" placeholder="Mid Text 2"><br>
-    <input id="midTxtNum1" type="number">
-    <input id="midTxtNum2" type="number">
-    <button id="submitBtn">Submit</button>
-</div>
+    <input id="midTxtNum1" type="number" placeholder="Mid Text Number"><br>
+    <input id="midTxtNum2" type="number"placeholder="Mid Text Number 2"><br>
+    <button id="submitBtn">Submit</button><br><br>
+<!-- </div> -->
 
 
-<select>
+
+
+
+
+<p id="altOptions">Other Options</p><br>
+<!-- border color -->
+<label for="borderColor">Border Color: </label>
+<select id="borderColor">
+    <option id="borderWhite">White</option>
+    <option id="borderYellow">yellow</option>
+    <option id="borderBlack">Blue</option>
+</select><br>
+
+
+<label for="Ttext">Top text color: </label>
+<select id="Ttext">
     <option id="Twhite">White</option>
     <option id="Tblack">Black</option>
     <option id="Tred">Red</option>
@@ -49,7 +72,8 @@
     <option id="Tyellow">Yellow</option>
 </select>
                         <br>
-<select>
+<label for="Btext">Bottom text color</label>
+<select id="Btext">
     <option id="Bwhite">White</option>
     <option id="Bblack">Black</option>
     <option id="Bred">Red</option>
@@ -57,23 +81,6 @@
     <option id="Bgreen">Green</option>
 </select>
 
-
-<!-- background color -->
-<select>
-    <option id="blueCard">Blue</option>
-    <option id="redCard">Red</option>
-    <option id="greenCard">Green</option>
-</select><br>
-
-
-<!-- border color -->
-<select>
-    <option id="borderWhite">White</option>
-    <option id="borderYellow">yellow</option>
-    <option id="borderBlack">Blue</option>
-</select>
 </div>
-
-
 </body>
 </html>
