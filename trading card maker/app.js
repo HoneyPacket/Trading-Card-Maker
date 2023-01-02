@@ -102,15 +102,15 @@ let greenCard = document.getElementById('greenCard');
 let cardBack = document.getElementById('back');
 
 redCard.addEventListener('click', ()=>{
-    cardBack.style.backgroundImage = "url('/imgs/redCard.png')";
+    cardBack.style.backgroundImage = "url('imgs/redCard.png')";
 })
 
 blueCard.addEventListener('click', ()=>{
-    cardBack.style.backgroundImage = "url('/imgs/blueCard.png')";
+    cardBack.style.backgroundImage = "url('imgs/blueCard.png')";
 })
 
 greenCard.addEventListener('click', ()=>{
-    cardBack.style.backgroundImage = "url('/imgs/greenCard.png')";
+    cardBack.style.backgroundImage = "url('imgs/greenCard.png')";
 })
 
 
