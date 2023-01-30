@@ -134,7 +134,7 @@ body{
     margin-top: 0.3rem;
     border-radius: 0%;
     background-color: #1f1e22;
-    padding: 0.4rem;
+    padding: 0.7rem;
     color: #e8c7ab;
     border: #e8c7ab solid 2px;
     font-weight: 600;
@@ -158,8 +158,56 @@ body{
     display: block;
     position: relative;
     margin: auto;
-    width: 80%;
+    max-width: 50rem;
     margin-top: 5rem;
     padding: 0.3rem;
     top: 11rem;
+}
+
+.cardColorBtn{
+    padding: 0.5rem;
+    background-color: #1f1e22;
+    color: antiquewhite;
+    border-color: #e8c7ab;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cardColorBtn:hover{
+    transition: 0.2s;
+    background-color: #111113;
+}
+
+#redCard{
+    border: solid #cc3f38;
+}
+
+#blueCard{
+    border: solid #004dcc;
+}
+
+#greenCard{
+    border: solid #40b64b;
+}
+
+
+.inputStyle{
+    font-weight: bold;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#imgUpload{
+/* border: 1px solid #ccc; */
+    width: 15rem;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.textWarning{
+    margin-bottom: 0%;
+    color: #cc3f38;
 }

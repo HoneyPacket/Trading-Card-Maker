@@ -42,56 +42,6 @@ subBtn.addEventListener('click', ()=>{
 
 
 
-//top text color
-let Twhite = document.getElementById('Twhite');
-let Tblack = document.getElementById('Tblack');
-let Tred = document.getElementById('Tred');
-let Tmaroon = document.getElementById('Tmaroon');
-let Tgreen = document.getElementById('Tgreen');
-let Tyellow = document.getElementById('Tyellow');
-
-Tred.addEventListener('click', ()=>{
-    topTxt.style.color = 'red';
-})
-Twhite.addEventListener('click', ()=>{
-    topTxt.style.color = 'antiquewhite';
-})
-Tblack.addEventListener('click', ()=>{
-    topTxt.style.color = 'black';
-})
-Tmaroon.addEventListener('click', ()=>{
-    topTxt.style.color = 'maroon';
-})
-Tgreen.addEventListener('click', ()=>{
-    topTxt.style.color = 'green';
-})
-Tyellow.addEventListener('click', ()=>{
-    topTxt.style.color = 'yellow';
-})
-
-
-//bottom text color
-let Bwhite = document.getElementById('Bwhite');
-let Bblack = document.getElementById('Bblack');
-let Bred = document.getElementById('Bred');
-let Bmaroon = document.getElementById('Bmaroon');
-let Bgreen = document.getElementById('Bgreen');
-
-Bred.addEventListener('click', ()=>{
-    btmTxt.style.color = 'red';
-})
-Bwhite.addEventListener('click', ()=>{
-    btmTxt.style.color = 'antiquewhite';
-})
-Bblack.addEventListener('click', ()=>{
-    btmTxt.style.color = 'black';
-})
-Bmaroon.addEventListener('click', ()=>{
-    btmTxt.style.color = 'maroon';
-})
-Bgreen.addEventListener('click', ()=>{
-    btmTxt.style.color = 'green';
-})
 
 
 
@@ -111,26 +61,5 @@ blueCard.addEventListener('click', ()=>{
 
 greenCard.addEventListener('click', ()=>{
     cardBack.style.backgroundImage = "url('imgs/greenCard.png')";
-})
-
-
-
-//Border color
-let mainImg = document.getElementById('mainImg');
-let borderWhite = document.getElementById('borderWhite');
-let borderYellow = document.getElementById('borderYellow');
-let borderBlack = document.getElementById('borderBlack');
-
-
-borderWhite.addEventListener('click', ()=>{
-    mainImg.style.border = 'antiquewhite solid 4px';
-})
-
-borderYellow.addEventListener('click', ()=>{
-    mainImg.style.border = 'yellow solid 4px';
-})
-
-borderBlack.addEventListener('click', ()=>{
-    mainImg.style.border = '#5885d1 solid 4px';
 })
 
