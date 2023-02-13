@@ -32,12 +32,12 @@ let numStat2 = document.getElementById('numStat2');
 let subBtn = document.getElementById('submitBtn');
 
 subBtn.addEventListener('click', ()=>{
-    topTxt.innerHTML = topInputBox.value;
-    btmTxt.innerHTML = btmInputBox.value;
-    midTxt.innerHTML = midInputBox.value;
-    midTxt2.innerHTML = midInputBox2.value;
-    numStat1.innerHTML = midTxtNum1.value;
-    numStat2.innerHTML = midTxtNum2.value;
+    topTxt.innerText = topInputBox.value;
+    btmTxt.innerText = btmInputBox.value;
+    midTxt.innerText = midInputBox.value;
+    midTxt2.innerText = midInputBox2.value;
+    numStat1.innerText = midTxtNum1.value;
+    numStat2.innerText = midTxtNum2.value;
 });
 
 
