@@ -8,7 +8,6 @@ body{
 #mainImg{
     height: 400px;
     width: 300px;
-    /* margin: 3rem; */
     border: antiquewhite solid 4px;
     position: absolute;
 }
